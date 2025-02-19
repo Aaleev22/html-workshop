@@ -5,12 +5,16 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background-image: url("https://static.wikia.nocookie.net/spongebob/images/9/9d/Man_Ray_Returns_001.png");
+
 }
+
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
     max-width: 25em;
     max-height: 30em;
 }
+
 /* .-ga viitame elemenditele, millel on selline class */
 .container {
     display: flex;
@@ -32,12 +36,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #D9D9D9;
+    background-color: blue;
     padding: 5em 1.5em 1.5em;
 }
+
 .icon {
     max-width: 10em;
 }
+
 iframe {
     width: 50em;
     height: 28em;
@@ -51,6 +57,5 @@ button {
 }
 
 button:hover {
-    background-color: #C8C6C6;
     cursor: pointer;
 }
